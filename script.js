@@ -14,7 +14,7 @@ function countSeconds() { // Denne funksjonen forteller at spillet teller ned.
         seconds--;
     } else {
         clearInterval(timer);
-        app.innerHTML = "Tamagotchi gikk AWOL!";
+        app.innerHTML = "☠️";
     }
 }
 
@@ -27,15 +27,15 @@ function showMessageAndRestart(message) { // Denne funksjonen forteller at en be
 }
 
 function food() {
-    showMessageAndRestart("NomNom"); // Funksjonen viser message "MomNom" og resetter countdown. "caller funksjonen showMessageAndRestart".
+    showMessageAndRestart("NomNom🍔"); // Funksjonen viser message "MomNom" og resetter countdown. "caller funksjonen showMessageAndRestart".
 }
 
 function play() {
-    showMessageAndRestart("Weee"); // Funksjonen viser message "Wee" og resetter countdown. "caller funksjonen showMessageAndRestart".
+    showMessageAndRestart("Weee🎡"); // Funksjonen viser message "Wee" og resetter countdown. "caller funksjonen showMessageAndRestart".
 }
 
 function sleep() {
-    showMessageAndRestart("Zzz"); // Funksjonen viser message "Zzz" og resetter countdown. "caller funksjonen showMessageAndRestart".
+    showMessageAndRestart("Zzz😴"); // Funksjonen viser message "Zzz" og resetter countdown. "caller funksjonen showMessageAndRestart".
 }
 
 window.onload = function() { // Starter spillet onload. Som vil si at spillet atarter når vinduet åpnes i nettleseren. Eller reload av nettleseren.
